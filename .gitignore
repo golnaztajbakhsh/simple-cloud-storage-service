@@ -1,7 +1,22 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
+*.pyc
+*.pyo
 *.py[cod]
 *$py.class
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# AWS Lambda deployment folders
+.aws-sam/
+.serverless/
+
+# IDE/editor folders
+.vscode/
+.idea/
 
 # C extensions
 *.so
@@ -129,6 +144,7 @@ celerybeat.pid
 
 # Environments
 .env
+*.env
 .venv
 env/
 venv/
